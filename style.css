@@ -1,0 +1,286 @@
+*{
+    font-family: sans-serif;
+    padding: 0%;
+    margin: 0%;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+}
+.main{
+    width: 100%;
+}
+.heading{
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+.heading_mid{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.icon{
+    padding-left: 10px;
+}
+.icon img{
+    width: 150px;
+    height: 80px;
+    font-size: 20px;
+}
+.items ul{
+    display: flex;
+    gap: 30px;
+}
+.items ul a{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+.banner_section{
+    display: flex;
+    flex-basis:100% ;
+}
+.banner_mid_section{
+    flex-basis: 100%;
+    margin: auto;
+    background: url("https://wscubetech.co/Assignments/One%20Page%20Website/images/the-town-bg-01.jpg")center fixed;
+    background-size:cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+.banner_mid_section p{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.banner_mid_section i{
+    font-size: 50px;
+    padding-top: 20px;
+}
+.intro_section{
+    width: 100%;
+    /* margin: auto;  */
+}
+.intro_mid{
+    flex-basis:1320px;
+    padding: 5%;
+    /* border: 1px solid black; */
+    display: flex;
+
+}
+.intro_img{
+    flex-basis: 47%;
+}
+.intro_content{
+    flex-basis: 47%;
+}
+.intro_content{
+    padding: 1%;
+}
+.intro_content h1{
+    font-size: 50px;
+    padding-bottom: 25px;
+    color: #2D7CC9;
+}
+.intro_content p{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    opacity: 0.6;
+    padding-bottom:20px ;
+}
+.intro_content button{
+    width: 200px;
+    padding: 20px;
+    border-radius: 50px;
+    border-style: none;
+    font-size: 18px;
+    color: white;
+    background-color: #2D7CC9;
+}
+.work_section{
+    width: 100%;
+}
+.work_mid_section{
+    flex-basis: 1320px;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+.work_row{
+    width: 100%;
+    display: flex;
+    
+}
+.item{
+    flex-basis: 29%;
+    padding: 1%;
+    margin: 1%;
+    /* border: 1px solid black; */
+    
+}
+.item i{
+    width: 100%;
+    font-size: 60px;
+    color: #2D7CC9;
+    padding-bottom:20px ;
+    display: flex;
+    justify-content: center;
+}
+.item h2{
+    font-size: 25px;
+    color: #2D7CC9;
+    padding-bottom:20px ;
+    display: flex;
+    justify-content: center;
+}
+.item p{
+    font-size: 16px;
+    opacity: 0.6;
+    display: flex;
+    text-align: justify;
+}
+.workPlace_section{
+    width: 100%;
+}
+.workPlace_mid_section{
+    width: 1320px;
+    margin: auto;
+}
+.workPlace_heading_section{
+    margin-top: 50px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    
+}
+.workPlace_heading_section h1{
+    font-size: 40px;
+    padding-bottom: 15px;
+    color: #2D7CC9;
+    font-weight: 500;
+
+}
+.workPlace_heading_section p{
+    width: 70%;
+    padding:35px ;
+    padding-left: 190px;
+    text-align: center;
+    opacity: 0.6;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+.workPlace_row{
+    width: 1320px;
+    margin: auto;
+    padding-bottom: 3%;
+    display: flex;
+}
+.workPlace_row>.icon{
+    width: 19%;
+    padding: 10px;
+}
+.workPlace_row>.icon>img{
+    width: 100%;
+    height: 380px;
+}
+.contact_section{
+    width: 100%;
+}
+.contact_mid_section{
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    background: url("https://wscubetech.co/Assignments/One%20Page%20Website/images/the-town-bg-02.jpg")center fixed;
+    background-size: cover;
+    /* margin:1% 0% ; */
+    color: white;
+}
+.contact_heading_section{
+    width: 70%;
+    margin: auto;
+    border-bottom:2px solid white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 6%;
+}
+.contact_heading_section h1{
+    font-size: 50px;
+    padding: 0px;
+    border-bottom:10px solid white ;
+}
+.contact_para{
+    width: 70%;
+    font-size: 18px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 6%;
+    margin:auto ;
+}
+.contact_items{
+    width: 70%;
+    font-size: 18px;
+    padding-top: 3%;
+    margin:auto;
+}
+.contact_row{
+    width: 100%;
+    display: flex;
+    margin: 2% 0%;
+
+}
+.contact_item{
+    width: 47%;
+    font-size: 20px;
+    display: flex;
+    margin-right: 3%;
+}
+.contact_item i{
+    width: 25%;
+    font-size: 35px;
+    padding: 0% 5%;
+}
+.contact_item a{
+    width: 65%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    text-transform: none;
+}
+.contact_item form{
+    display: flex;
+    margin: auto;
+}
+.contact_item input{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: 4%;
+    background-color: transparent;
+    color: white;
+}
+.contact_item button{
+    width: 150px;
+    height: 40px;
+    
+    margin: 4%;
+    border-radius: 25px;
+}
+.contact_items>p{
+    margin-top: auto;
+    display: flex;
+    margin: 16%;
+    justify-content:center;
+    text-align: center;
+
+}
